@@ -3,8 +3,9 @@ var specialGuest = "Neil deGrasse Tyson";
 var topic = "space"
 
 function greetSpecialGuest() {
-  return "Hello, " + [specialGuest] + "!";
-}
+  return "Hello, " + [specialGuest] + "!"
+  `'Let\'s talk about' + ${topic} + '.'`;
+  }
 
 
-var conversation = `'Let\'s talk about' + ${topic} + '.'`;
+ 
